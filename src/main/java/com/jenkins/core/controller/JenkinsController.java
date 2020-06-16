@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class JenkinsController {
     @GetMapping
     private java.lang.String helloWorld() {
-        return new Gson().toJson("hello world");
+        return new Gson().toJson("hello world new");
     }
 }
